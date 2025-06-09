@@ -49,7 +49,7 @@
   outline: 1px solid var( --color-border-hover);
 }
 
-.header__theme-menu-button:focus-visible  {
+.header__theme-menu-button:focus-visible {
   outline: none;
   border-block-end: 1px solid currentColor;
 }
@@ -60,6 +60,7 @@
 
 
 .header__theme-menu-button_active {
+  pointer-events: none;
    outline: 1px solid var( --color-navigation);
 }
 
@@ -103,10 +104,6 @@
   block-size: 26px;
   padding: 0;
   line-height: 26px;
-}
-
-.header__theme-menu-button_active {
-  pointer-events: none;
 }
 
 .title {
@@ -281,7 +278,7 @@
   }
 
   .gallary__wraper {
-    grid-template: repeat(3,1fr)/ repeat(3, 1fr);
+    grid-template-columns: repeat(3,1fr);
     gap: 20px;
   }
   
@@ -302,12 +299,17 @@
     grid-row: span 2;
   }
 
+  .footer {
+    min-block-size: 1024px;
+  }
+
 }
+
 @media (width >= 1024px) {
+
   .header {
-    min-block-size: 768PX;
-    padding-block-end: 20px;
-    padding-block-start: 20px;
+    padding-inline-end: 20px;
+    min-block-size: 768px;
   }
 
   .title  {
@@ -315,6 +317,8 @@
   }
 
   .header__theme-menu  {
+    margin-block-start: 20px;
+    margin-inline-end: -20px;
     justify-self: center;
     align-self: start;
   }
@@ -322,17 +326,14 @@
   .header__theme-menu-list  {
     flex-direction: row;
   }
-  .section__three-columns-title {
-  inline-size: 25%;
-  }
-
+  
   .section__three-columns-wraper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap:20px;
   }
-  .section__three-columns-title {
-      inline-size: 30%;
-  }
 
+   .footer {
+    min-block-size: 768px;
+  }
 }
