@@ -155,7 +155,7 @@
 
 .section__wraper {
   padding-inline: 10px;
-  padding-block-start: 40px ;
+  padding-block-start: 42px ;
   padding-block-end: 50px;
 }
 
@@ -165,17 +165,17 @@
 
 .section {
   display: grid;
-  gap: 20px;
+  gap: 19px;
 }
 
 .section__subtitle {
-  margin-block-end: 10px;
+  margin-block-end: 11px;
 }
 .section__subtitle-list {
   font-weight: normal;
 }
 .section__subtitle-name-list {
-  margin-block-end: 25px;
+  margin-block-end: 18px;
 }
 
 
@@ -219,6 +219,7 @@
     min-block-size: 1024px;
     padding-inline-end: 20px;
     padding-inline-start: 0;
+    padding-block-start: 6px;
   }
 
   .decorated-corners_top {
@@ -243,11 +244,16 @@
   .header__description {
     inline-size: 49%;
     justify-self: end;
+    margin-block-end: 20px;
+  }
+
+  .section {
+    gap: 20px;
   }
 
   .section__wraper  {
     padding-block-start: 60px;
-    padding-block-end: 74px;
+    padding-block-end: 79px;
     padding-inline: 20px;
   }
 
@@ -261,7 +267,7 @@
   }
 
   .section__wraper > *:not(:last-child) {
-    margin-block-end: 80px;
+    margin-block-end: 79px;
   }
   
  .section__paragrah-wraper:not(:last-child) {
@@ -317,7 +323,7 @@
   }
 
   .header__theme-menu  {
-    margin-block-start: 20px;
+    margin-block-start: 13px;
     margin-inline-end: -20px;
     justify-self: center;
     align-self: start;
