@@ -1,11 +1,9 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
   background-image: var( --background-image);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  font-family: var(--main-font-family,monospace);
+  font-family: var(--main-font-family,'Roboto Mono', monospace), 'Roboto Mono', monospace;
   font-size: var(--main-font-size);
 }
 
@@ -38,7 +36,7 @@
   left: 10px;
   border-inline-start: 1px solid var(--color-decorated);
   border-block-end: 1px solid var(--color-decorated);
-}
+} 
 
 .header__theme-menu {
   align-self: center;
@@ -58,10 +56,9 @@
   outline: none;
 }
 
-
 .header__theme-menu-button_active {
   pointer-events: none;
-   outline: 1px solid var( --color-navigation);
+  outline: 1px solid var( --color-navigation);
 }
 
 .header__theme-menu-list {
@@ -141,17 +138,17 @@
 }
 
 .section__text-accent {
-  text-shadow: 1px 1px 0 var(--color-text-accnet-shadow);
+  text-shadow: 2px 2px 0 var(--color-text-accnet-shadow);
   text-decoration: none;
 }
 
 .section__text-accent:hover {
-  text-decoration: underline;
+  border-block-end: 1px solid currentColor;
 }
+
 .section__text-accent:focus-visible {
   outline: 1px solid var(--color-main-text);
 }
-
 
 .section__wraper {
   padding-inline: 10px;
@@ -171,13 +168,14 @@
 .section__subtitle {
   margin-block-end: 11px;
 }
+
 .section__subtitle-list {
   font-weight: normal;
 }
+
 .section__subtitle-name-list {
   margin-block-end: 18px;
 }
-
 
 .section__paragrah-wraper:not(:last-child)  {
   margin-block-end: 20px;
@@ -187,6 +185,7 @@
   padding-block-end: 40px;
   padding-inline: 10px;
 }
+
 .gallary__title {
   margin-block-end: 10px;
 }
@@ -215,6 +214,7 @@
 }
 
 @media (width >= 768px) {
+
   .header {
     min-block-size: 1024px;
     padding-inline-end: 20px;
@@ -257,12 +257,12 @@
     padding-inline: 20px;
   }
 
-  .section__two-columns-wraper {
+  .large-text-markap {
     display: grid;
     grid-template-columns: 32% 1fr;
   }
 
-  .section__three-columns-title {
+  .small-text-markap-title {
     inline-size: 31%;
   }
 
@@ -333,7 +333,7 @@
     flex-direction: row;
   }
   
-  .section__three-columns-wraper {
+  .small-text-markap {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap:20px;
@@ -342,4 +342,5 @@
    .footer {
     min-block-size: 768px;
   }
+
 }

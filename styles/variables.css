@@ -22,6 +22,7 @@
   --color-title-shadow: var(--red);
   --color-navigation: var(--red);
   --color-border-hover:var(--red-light);
+  --color-decorated:var(--red);
   --main-font-family: 'IBM Plex mono';
   --main-font-size: 18px;
   --font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
