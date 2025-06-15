@@ -10,12 +10,14 @@
   --color-Cotton-candy:#FFC2E6;
   --umber-gray:#353430;
   --umber-gray-light:#32312D66;
+  --pale-pink:#FFF1F7;
 
   --color-bg-subtitle: var(--red);
   --color-section-title: var(--red);
   --color-title: var(--violet);
   --color-subtitle: var(--blue);
   --background-image: url('../images/cover-image-dark.png');
+  --background-main-color: var(--blue);
   --color-main-text: var(--pink);
   --color-text-accent: var(--red);
   --color-text-accnet-shadow: var(--pink);

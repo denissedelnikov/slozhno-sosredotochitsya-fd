@@ -4,13 +4,14 @@
   --color-subtitle: var(--umber-gray);
   --color-main-text: var(--umber-gray);
   --color-text-accent: var( --umber-gray);
-  --color-text-accnet-shadow: var(--red);
+  --color-text-accnet-shadow: var(--purple-pink);
   --color-title-shadow: var( --purple-pink);
   --color-navigation: var( --umber-gray);
   --color-section-title: var(--umber-gray);
   --color-decorated:var(--umber-gray);
   --color-border-hover:var(--umber-gray-light);
 
+  --background-main-color: var(--pale-pink);
   --background-image: url('../images/cover-image-light.png');
 }
 
@@ -26,12 +27,13 @@
   --color-subtitle: var(--umber-gray);
   --color-main-text: var(--umber-gray);
   --color-text-accent: var( --umber-gray);
-  --color-text-accnet-shadow: var(--red);
+  --color-text-accnet-shadow: var(--purple-pink);
   --color-title-shadow: var( --purple-pink);
   --color-navigation: var( --umber-gray);
   --color-border-hover:var(--umber-gray-light);
   --color-decorated:var(--umber-gray);
 
+  --background-main-color: var(--pale-pink);
   --background-image: url('../images/cover-image-light.png');
   }
 

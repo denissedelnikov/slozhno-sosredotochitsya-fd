@@ -10,7 +10,7 @@
   --color-decorated: var(--red);
   --color-border-hover:var(--red-light);
 
-
+  --background-main-color: var(--blue);
   --background-image: url('../images/cover-image-dark.png');
 }
 
