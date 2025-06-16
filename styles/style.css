@@ -106,7 +106,7 @@
 .title {
   font-family: inherit;
   color: var(--color-title);
-  font-size: var(--font-size-mobile);
+  font-size: var(--font-size-title);
   line-height: 76%;
   text-shadow: 4px 4px 0 var(--color-title-shadow);
 }
@@ -118,7 +118,6 @@
 
 .title-decor {
   font-family: inherit;
-  font-size: inherit;
   background-color: var(--color-bg-subtitle);
   color: var(--color-subtitle);
   font-weight: bold;
@@ -127,7 +126,7 @@
 .section__title {
   font-family: inherit;
   font-size: inherit;
-  line-height: 23.5px;
+  line-height: 23.4px;
   color: var(--color-section-title);
 }
 
@@ -145,7 +144,7 @@
 }
 
 .section__text-accent:hover {
-  border-block-end: 1px solid currentColor;
+  border-block-end: 1px solid var(--color-main-text);
 }
 
 .section__text-accent:focus-visible {
@@ -154,7 +153,7 @@
 
 .section__wraper {
   padding-inline: 10px;
-  padding-block-start: 40px;
+  padding-block-start: 37px;
   padding-block-end: 50px;
 }
 
@@ -168,7 +167,8 @@
 }
 
 .section__subtitle {
-  line-height: 23px;
+  font-size: 18px;
+  line-height: 23.4px;
   margin-block-end: 10px;
 }
 
@@ -177,7 +177,7 @@
 }
 
 .section__subtitle-name-list {
-  line-height: 23.5px;
+  line-height: 23.4px;
   margin-block-end: 20px;
 }
 
@@ -191,8 +191,9 @@
 }
 
 .gallary__title {
-  line-height: 24px;
-  margin-block-end: 12px;
+  font-size: 18px;
+  line-height: 23.4px;
+  margin-block-end: 9px;
 }
 
 .gallary__wraper {
@@ -258,6 +259,7 @@
     padding-block-start: 60px;
     padding-block-end: 79px;
     padding-inline: 20px;
+    padding-right: 20px;
   }
 
   .large-text-markap {
@@ -270,7 +272,7 @@
   }
 
   .section__subtitle-name-list {
-    line-height: 26px;
+    line-height: 23.4px;
   }
 
   .section__wraper > *:not(:last-child) {
@@ -321,10 +323,6 @@
   .header {
     padding-inline-end: 20px;
     min-block-size: 768px;
-  }
-
-  .title {
-    font-size: var(--font-size-descktop);
   }
 
   .header__theme-menu {
