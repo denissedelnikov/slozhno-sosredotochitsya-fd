@@ -4,7 +4,7 @@
   --color-subtitle: var(--umber-gray);
   --color-main-text: var(--umber-gray);
   --color-text-accent: var( --umber-gray);
-  --color-text-accnet-shadow: var(--purple-pink);
+  --color-text-accent-shadow: var(--purple-pink);
   --color-title-shadow: var( --purple-pink);
   --color-navigation: var( --umber-gray);
   --color-section-title: var(--umber-gray);
@@ -27,7 +27,7 @@
   --color-subtitle: var(--umber-gray);
   --color-main-text: var(--umber-gray);
   --color-text-accent: var( --umber-gray);
-  --color-text-accnet-shadow: var(--purple-pink);
+  --color-text-accent-shadow: var(--purple-pink);
   --color-title-shadow: var( --purple-pink);
   --color-navigation: var( --umber-gray);
   --color-border-hover:var(--umber-gray-light);

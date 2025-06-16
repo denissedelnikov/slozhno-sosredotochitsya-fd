@@ -4,6 +4,7 @@
   --color-subtitle: var(--blue);
   --color-main-text: var(--pink);
   --color-text-accent: var(--red);
+  --color-text-accent-shadow: var(--red);
   --color-title-shadow: var(--red);
   --color-navigation: var(--red);
   --color-section-title: var(--red);
@@ -13,7 +14,7 @@
   --background-main-color: var(--blue);
   --background-image: url('../images/cover-image-dark.png');
 }
-
+ 
 .theme-dark .header__decorated-item {
   display: flex;
 }

@@ -140,7 +140,7 @@
 }
 
 .section__text-accent {
-  text-shadow: 2px 2px 0 var(--color-text-accnet-shadow);
+  text-shadow: 2px 2px 0 var(--color-text-accent-shadow);
   text-decoration: none;
 }
 

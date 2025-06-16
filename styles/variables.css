@@ -4,7 +4,6 @@
   --pink:#F1B2CE;
   --blue:#000028;
   --red-light:#FF007066;
-  
 
   --purple-pink:#FF8DCB;
   --color-Cotton-candy:#FFC2E6;
@@ -20,7 +19,7 @@
   --background-main-color: var(--blue);
   --color-main-text: var(--pink);
   --color-text-accent: var(--red);
-  --color-text-accnet-shadow: var(--pink);
+  --color-text-accent-shadow: var(--red);
   --color-title-shadow: var(--red);
   --color-navigation: var(--red);
   --color-border-hover:var(--red-light);
@@ -30,3 +29,4 @@
   --font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --font-size-descktop:clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
+
