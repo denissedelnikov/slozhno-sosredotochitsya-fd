@@ -1,43 +1,42 @@
 :root.theme-light {
-  --color-bg-subtitle: var( --purple-pink);
+  --color-bg-subtitle: var(--purple-pink);
   --color-title: var(--color-Cotton-candy);
   --color-subtitle: var(--umber-gray);
   --color-main-text: var(--umber-gray);
-  --color-text-accent: var( --umber-gray);
+  --color-text-accent: var(--umber-gray);
   --color-text-accent-shadow: var(--purple-pink);
-  --color-title-shadow: var( --purple-pink);
-  --color-navigation: var( --umber-gray);
+  --color-title-shadow: var(--purple-pink);
+  --color-navigation: var(--umber-gray);
   --color-section-title: var(--umber-gray);
-  --color-decorated:var(--umber-gray);
-  --color-border-hover:var(--umber-gray-light);
+  --color-decorated: var(--umber-gray);
+  --color-border-hover: var(--umber-gray-light);
 
   --background-main-color: var(--pale-pink);
-  --background-image: url('../images/cover-image-light.png');
+  --background-image: url("../images/cover-image-light.png");
 }
 
-.theme-light .header__decorated-item {  
+.theme-light .header__decorated-item {
   display: none;
 }
 
-
 @media (prefers-color-scheme: light) {
   :root {
-  --color-bg-subtitle: var( --purple-pink);
-  --color-title: var(--color-Cotton-candy);
-  --color-subtitle: var(--umber-gray);
-  --color-main-text: var(--umber-gray);
-  --color-text-accent: var( --umber-gray);
-  --color-text-accent-shadow: var(--purple-pink);
-  --color-title-shadow: var( --purple-pink);
-  --color-navigation: var( --umber-gray);
-  --color-border-hover:var(--umber-gray-light);
-  --color-decorated:var(--umber-gray);
+    --color-bg-subtitle: var(--purple-pink);
+    --color-title: var(--color-Cotton-candy);
+    --color-subtitle: var(--umber-gray);
+    --color-main-text: var(--umber-gray);
+    --color-text-accent: var(--umber-gray);
+    --color-text-accent-shadow: var(--purple-pink);
+    --color-title-shadow: var(--purple-pink);
+    --color-navigation: var(--umber-gray);
+    --color-border-hover: var(--umber-gray-light);
+    --color-decorated: var(--umber-gray);
 
-  --background-main-color: var(--pale-pink);
-  --background-image: url('../images/cover-image-light.png');
+    --background-main-color: var(--pale-pink);
+    --background-image: url("../images/cover-image-light.png");
   }
 
-  .header__decorated-item  {
+  .header__decorated-item {
     display: none;
   }
 }

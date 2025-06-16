@@ -9,23 +9,21 @@
   --color-navigation: var(--red);
   --color-section-title: var(--red);
   --color-decorated: var(--red);
-  --color-border-hover:var(--red-light);
+  --color-border-hover: var(--red-light);
 
   --background-main-color: var(--blue);
-  --background-image: url('../images/cover-image-dark.png');
+  --background-image: url("../images/cover-image-dark.png");
 }
- 
+
 .theme-dark .header__decorated-item {
   display: flex;
 }
 
-
 .theme-dark .header__decorated-item::after {
-  content: '';
+  content: "";
   inline-size: 13px;
   block-size: 13px;
   border-radius: 100%;
   background-color: var(--color-decorated);
   filter: blur(2px);
 }
-
